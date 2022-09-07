@@ -4,33 +4,57 @@ Los valores entre `<>` deben ser reemplazados acorde a sus necesidades, removien
 
 Para el caso del deduplicator, si su servidor Redis esta en otro host deberá configurar la variable `redis_cache_host` con la IP adecuada, en caso de usar docker-intelmq el valor será `redis`.
 
+---
 ## RsyncPowered
 
-**private_key:** `<your_private_key>`
+**private_key:**
 
-**provider:** `CSIRTAmericas`
+`<your_private_key>`
 
-**rsync_file_path_formatting:** `true`
+**provider:**
+
+`CSIRTAmericas`
+
+**rsync_file_path_formatting:**
+
+`true`
 
 **sync_path:**
- `<user>@rsync.csirtamericas.org:<cc>zone/defacement/compromised_website/publicwww/`
 
-**file:** `{time[%Y%m%d]}-compromised_website-<CC>.csv`
+`<user>@rsync.csirtamericas.org:<cc>zone/defacement/compromised_website/publicwww/`
 
-**name:** `compromisedwebsite`
+**file:**
+
+`{time[%Y%m%d]}-compromised_website-<CC>.csv`
+
+**name:**
+
+`compromisedwebsite`
 
 
+---
 ## GenericCsv
 
-**delimiter:** `,`
+**delimiter:**
 
-**skip_header:** `true`
+`,`
 
-**columns:** `time.source,source.url,source.ip,source.fqdn,extra.source_code,extra.alexa_ranking,extra.publicwww_query,extra.csirtamericas.taxonomy,extra.csirtamericas.provider`
+**skip_header:**
+
+`true`
+
+**columns:**
+
+`time.source,source.url,source.ip,source.fqdn,extra.source_code,extra.alexa_ranking,extra.publicwww_query,extra.csirtamericas.taxonomy,extra.csirtamericas.provider`
 
 
+---
 ## Deduplicator
 
-**filter_keys:** `time.source,source.url,source.ip`
+**filter_keys:**
 
-**redis_cache_host:** `<redis_hostname_or_ip>`
+`time.source,source.url,source.ip`
+
+**redis_cache_host:**
+
+`<redis_hostname_or_ip>`
