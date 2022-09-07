@@ -1,17 +1,6 @@
-# Guía de configuración de bots para CSIRTAmericas
+# Valores de configuración de cada bot según el feed
 
-## Introducción
-La presente guía trabaja utilizando IntelMQ y el repositorio de bots creado por CERTUNLP (https://github.com/CERTUNLP/intelmq-bots) para el consumo de feeds otorgados por CSIRTAmericas.
-
-## Ejemplo de creación de bots en IntelMQ 
-
-[link](1-example/README.md)
-
-## Parámetros generales de configuración de bots para CSIRTAmericas
-
-[link](2-parameters/README.md)
-
-## Valores de configuración de cada bot según el feed 
+Se mostrarán a continuación los valores a modificar que cambian según el feed, para el resto de los parámetros considerar las configuraciones previas.
 
 | Category      | SubType                        | Provider               | Configuration                                                  |
 | :------------ | :----------------------------- | :--------------------- | :------------------------------------------------------------- |
@@ -32,5 +21,6 @@ La presente guía trabaja utilizando IntelMQ y el repositorio de bots creado por
 | ics-scada     | ics_scada_internet_facing      | shodan                 | [link](ics-scada-ics_scada_internet_facing-shodan.md)          |
 | phishing      | phishing_domains               | phishtank              | [link](phishing-phishing_domains-phishtank.md)                 |
 | malware       | infected_connections           | microsoft              | [link](malware-infected_connections-microsoft.md)              |
+
 
 
