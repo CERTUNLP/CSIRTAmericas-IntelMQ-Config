@@ -32,5 +32,6 @@ La presente guía trabaja utilizando IntelMQ y el repositorio de bots creado por
 | ics-scada     | ics_scada_internet_facing      | shodan                 | [link](3-feeds/ics-scada-ics_scada_internet_facing-shodan.md)          |
 | phishing      | phishing_domains               | phishtank              | [link](3-feeds/phishing-phishing_domains-phishtank.md)                 |
 | malware       | infected_connections           | microsoft              | [link](3-feeds/malware-infected_connections-microsoft.md)              |
+| infoleak      | data_leak                      | intelx                 | [link](3-feeds/infoleak-dataleak-leakx.md)                             |
 
 
