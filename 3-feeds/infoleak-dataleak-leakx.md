@@ -45,7 +45,7 @@ Para el caso del deduplicator, si su servidor Redis esta en otro host deberá co
 
 **columns:**
 
-`extra.csirtamericas.observation_time,time.source,source.account,extra.password,extra.password_type,source.fqdn,extra.leak_source,extra.csirtamericas.taxonomy,extra.provider`
+`extra.csirtamericas.observation_time,time.source,source.account,extra.password,extra.password_type,source.fqdn,extra.leak_source,extra.occurrences,extra.last_seen,tlp,extra.csirtamericas.taxonomy,extra.provider`
 
 
 ---
