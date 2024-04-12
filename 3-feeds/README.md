@@ -6,6 +6,7 @@ Se mostrarán a continuación los valores a modificar que cambian según el feed
 | :------------ | :----------------------------- | :--------------------- | :------------------------------------------------------------- |
 | vulnerability | vulnerable_system              | shodan                 | [link](vulnerability-vulnerable_system-shodan.md)              |
 | vulnerability | vulnerable_system              | publicwww              | [link](vulnerability-vulnerable_system-publicwww.md)           |
+| vulnerability | vulnerable_system              | LeakIX                 | [link](3-feeds/vulnerability-vulnerable_system-leakix.md)      |
 | vulnerability | virtualization_internet_facing | shodan                 | [link](vulnerability-virtualization_internet_facing-shodan.md) |
 | defacement    | compromised_website            | publicwww              | [link](defacement-compromised_website-publicwww.md)            |
 | defacement    | compromised_website            | zone-h (published)     | [link](defacement-compromised_website-zoneh_published.md)      |
