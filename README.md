@@ -17,6 +17,7 @@ La presente guía trabaja utilizando IntelMQ y el repositorio de bots creado por
 | :------------ | :----------------------------- | :--------------------- | :------------------------------------------------------------- |
 | vulnerability | vulnerable_system              | shodan                 | [link](3-feeds/vulnerability-vulnerable_system-shodan.md)              |
 | vulnerability | vulnerable_system              | publicwww              | [link](3-feeds/vulnerability-vulnerable_system-publicwww.md)           |
+| vulnerability | vulnerable_system              | LeakIX                 | [link](3-feeds/vulnerability-vulnerable_system-leakix.md)              |
 | vulnerability | virtualization_internet_facing | shodan                 | [link](3-feeds/vulnerability-virtualization_internet_facing-shodan.md) |
 | defacement    | compromised_website            | publicwww              | [link](3-feeds/defacement-compromised_website-publicwww.md)            |
 | defacement    | compromised_website            | zone-h (published)     | [link](3-feeds/defacement-compromised_website-zoneh_published.md)      |
