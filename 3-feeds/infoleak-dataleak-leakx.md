@@ -25,7 +25,7 @@ Para el caso del deduplicator, si su servidor Redis esta en otro host deberá co
 
 **file:**
 
-`{time[%Y%m%d]}-data-leak-credentials-<CC>.csv`
+`{time[%Y%m%d]}-data_leak-intelx-<CC>.csv`
 
 **name:**
 
